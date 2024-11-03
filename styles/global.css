@@ -25,8 +25,8 @@
   --semantic-error: #DC2626;
 
   --font-family: "Poppins", serif;
-  --h1: 700 2rem/1.2 var(--font-family);
-  --h2: 700 1.5rem/1.2 var(--font-family);
+  --h1: 600 2rem/1.2 var(--font-family);
+  --h2: 600 1.5rem/1.2 var(--font-family);
   --h3: 700 1.25rem/1.2 var(--font-family);
   --h4: 700 1rem/1.2 var(--font-family);
   --text: 400 1rem/1.5 var(--font-family);
@@ -37,10 +37,16 @@
 body {
     overflow: hidden;
     font: var(--text);
-    color: var(--text-primary);
+    color: var(--text-secondary);
     background-color: var(--surface-secondary);
 }
 
 h1, h2, h3, h4 {
   font: inherit;
+  color: var(--text-primary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

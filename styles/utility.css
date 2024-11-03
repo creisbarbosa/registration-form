@@ -1,3 +1,6 @@
 .text-2xl {
   font: var(--h1)
 }
+.text-xl {
+  font: var(--h2)
+}
