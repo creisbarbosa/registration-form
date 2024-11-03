@@ -27,8 +27,8 @@
   --font-family: "Poppins", serif;
   --h1: 600 2rem/1.2 var(--font-family);
   --h2: 600 1.5rem/1.2 var(--font-family);
-  --h3: 700 1.25rem/1.2 var(--font-family);
-  --h4: 700 1rem/1.2 var(--font-family);
+  --h3: 600 1.25rem/1.2 var(--font-family);
+  --h4: 600 1rem/1.2 var(--font-family);
   --text: 400 1rem/1.5 var(--font-family);
   --text-bold: 500 1rem/1.5 var(--font-family);
   --text-sm: 400 .875rem/1.4 var(--font-family);
